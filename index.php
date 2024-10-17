@@ -118,7 +118,7 @@ echo "Сегодня: " . $week[date('w')] . "<br>";
 $dateJune6 = mktime(0, 0, 0, 6, 6, 2006);
 echo "06.06.2006 был " . $week[date('w', $dateJune6)] . "<br>";
 
-$birthDate = mktime(0, 0, 0, 20, 4, 2000);
+$birthDate = mktime(0, 0, 0, 4, 20, 2000);
 echo "др: " . $week[date('w', $birthDate)] . "<br>";
 
 //   Створіть масив місяців $month. Виведіть на екран назву поточного місяця за допомогою масиву $month та функції date.
